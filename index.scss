@@ -59,6 +59,9 @@ header{
     background-color: #fff;
 }
 
+nav{
+}
+
 
 nav .logo{
     margin-left: 0.5em;
@@ -70,11 +73,11 @@ nav .nav_aside_btn-open{
 
 header div{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex: 0.4;
 
     .cart{
         cursor: pointer;
-        display: none;
     }
 
    

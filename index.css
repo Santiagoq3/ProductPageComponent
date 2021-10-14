@@ -59,7 +59,8 @@ nav .nav_aside_btn-open {
 
 header div {
   display: flex;
-  gap: 1em;
+  justify-content: space-around;
+  flex: 0.4;
 }
 header div .cart {
   cursor: pointer;
