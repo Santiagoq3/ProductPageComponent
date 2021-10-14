@@ -62,8 +62,12 @@ header div {
   justify-content: space-around;
   flex: 0.4;
 }
-header div .cart {
+header div img {
   cursor: pointer;
+}
+header div .avatar:hover {
+  border: 2px solid #ff731b;
+  border-radius: 50%;
 }
 
 main {
@@ -88,8 +92,7 @@ main {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.5em;
+  justify-content: space-evenly;
 }
 .container_thumbnail .container_thumbnail__demos img {
   width: 90px;
