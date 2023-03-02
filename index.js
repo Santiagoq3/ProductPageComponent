@@ -38,7 +38,6 @@ demos.forEach(demo=>{
 
 btnOpenAsideNav.addEventListener("click", function(){
     asideNavCategories.style.display = "block";
-    body.style.backgroundColor = "rgba(24, 21, 21, 0.4)"
 })
 
 btnCloseAsideNav.addEventListener("click", function(){
@@ -46,15 +45,15 @@ btnCloseAsideNav.addEventListener("click", function(){
     body.style.backgroundColor = ""
 })
 
-btnOpenCartDisplay.addEventListener("click", function(){
+// btnOpenCartDisplay.addEventListener("click", function(){
 
-    if(cart.style.display === "none"){
+//     if(cart.style.display === "none"){
 
-        cart.style.display = "block"
-    }else{
-        cart.style.display = "none"
-    }
-})
+//         cart.style.display = "block"
+//     }else{
+//         cart.style.display = "none"
+//     }
+// })
 
 btnSumar.addEventListener("click", function(){
     contador= contador + 1;

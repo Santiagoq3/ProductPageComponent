@@ -146,6 +146,11 @@ header div img {
   align-self: start;
   justify-self: center;
 }
+
+.cart-icon{
+  color: #fff ;
+}
+
 .cart_display .cart_products div .cart_products-img {
   justify-self: center;
   align-self: center;
@@ -222,9 +227,10 @@ header div img {
 
 .cart_actions {
   display: flex;
+  gap: 1em;
   flex-wrap: wrap;
 }
-.cart_actions div {
+.cart_actions .btn-actions {
   width: 100%;
   padding: 1.5em;
   display: flex;
@@ -233,6 +239,12 @@ header div img {
   justify-content: space-between;
   text-align: center;
   background-color: #f6f8fd;
+  color: #ff731b;
+  max-width: 200px;
+}
+
+.contadorhtml{
+  color: #000;
 }
 .cart_actions div img {
   cursor: pointer;
@@ -249,6 +261,7 @@ header div img {
   background-color: #ff731b;
   color: #fff;
   cursor: pointer;
+  max-width: 200px;
 }
 .cart_actions button b {
   margin-left: 1em;
